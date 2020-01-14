@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/house"
+            android:title="Home"
+            android:fontFamily="@font/hangeul_nuri_bold"/>
+    </group>
+    <item android:title="대피소">
+        <menu>
+        <item
+            android:id="@+id/nav_menu1"
+            android:icon="@drawable/sun"
+            android:title="무더위 대피소"
+            android:fontFamily="@font/hangeul_nuri"/>
+        <item
+            android:id="@+id/nav_menu2"
+            android:icon="@drawable/cold_ice"
+            android:title="한파 대피소"
+            android:fontFamily="@font/hangeul_nuri"/>
+
+        <item
+            android:id="@+id/nav_menu4"
+            android:icon="@drawable/earthquake"
+            android:title="지진 대피소"
+            android:fontFamily="@font/hangeul_nuri"/>
+
+        <item
+            android:id="@+id/nav_menu5"
+            android:icon="@drawable/siren_light"
+            android:title="비상 대피소"
+            android:fontFamily="@font/hangeul_nuri"/>
+
+        <item
+            android:id="@+id/nav_menu3"
+            android:icon="@drawable/fire"
+            android:title="화재 취약건물"
+            android:fontFamily="@font/hangeul_nuri"/>
+
+
+        </menu>
+
+    </item>
+
+</menu>
